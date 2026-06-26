@@ -139,11 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Okno.h" />
+    <ClInclude Include="Przycisk.h" />
     <ClInclude Include="Wybor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Kol1.cpp" />
     <ClCompile Include="Kol2.cpp" />
+    <ClCompile Include="Okno.cpp" />
+    <ClCompile Include="Przycisk.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
